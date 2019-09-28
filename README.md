@@ -14,3 +14,4 @@ Essa função recebe um SQS com um payload, nele contém o nome do arquivo no s3
 
 
 ## Benchmark: 122.000 registros em 30 segundos.
+> Para simular um lambda em localhost, ver o locallambda.js.

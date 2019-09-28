@@ -100,11 +100,5 @@ exports.handler = async (event, context) => {
 
   console.log(jsonRows.length);
 
-  function wait() {
-    return new Promise((resolve, reject) => {
-      setTimeout(() => resolve("hello"), 2000);
-    });
-  }
-  console.log(await wait());
   await processData(jsonRows, context);
 };

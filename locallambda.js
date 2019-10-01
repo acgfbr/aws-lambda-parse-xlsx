@@ -4,7 +4,7 @@ var jsonPayload = {
   Records: [
     {
       payload: {
-        url: "spreadsheets/testeantonio.xlsx"
+        url: "yourfile.xlsx"
       }
     }
   ]
